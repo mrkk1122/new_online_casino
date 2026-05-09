@@ -15,7 +15,8 @@ if (leadForm) {
       return;
     }
 
-    formMessage.textContent = `Thanks! Setup details will be sent to ${emailInput.value}.`;
+    const safeEmail = emailInput.value.replace(/[^\w@.+-]/g, '').trim();
+    formMessage.textContent = `Thanks! Setup details will be sent to ${safeEmail}.`;
     leadForm.reset();
   });
 }
