@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EarnWave - Online Earning Hub</title>
+    <meta
+      name="description"
+      content="EarnWave is a modern online earning website concept with clear plans, trusted partners, and simple onboarding."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="top-nav">
+        <h1>EarnWave</h1>
+        <a class="nav-btn" href="#join">Start Now</a>
+      </nav>
+      <div class="hero-content">
+        <p class="tag">Smart online earning platform</p>
+        <h2>Build daily income with trusted digital tasks</h2>
+        <p>
+          Join a simple earning journey with flexible work options, transparent payouts,
+          and a beginner-friendly dashboard.
+        </p>
+        <a class="primary-btn" href="#plans">Explore Plans</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="plans" class="section">
+        <h3>Popular Plans</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Starter</h4>
+            <p class="price">৳499 / month</p>
+            <p>Perfect for beginners who want to learn and earn part-time.</p>
+          </article>
+          <article class="card">
+            <h4>Growth</h4>
+            <p class="price">৳1,499 / month</p>
+            <p>Higher daily task limits and faster payout windows.</p>
+          </article>
+          <article class="card">
+            <h4>Pro</h4>
+            <p class="price">৳2,999 / month</p>
+            <p>Priority support, premium offers, and advanced reporting tools.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="join" class="section section-highlight">
+        <h3>Ready to Join EarnWave?</h3>
+        <p>Enter your email and we will send setup instructions instantly.</p>
+        <form id="lead-form" class="join-form">
+          <label for="email" class="sr-only">Email address</label>
+          <input id="email" type="email" placeholder="you@example.com" required />
+          <button type="submit">Get Started</button>
+        </form>
+        <p id="form-message" class="form-message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> EarnWave. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

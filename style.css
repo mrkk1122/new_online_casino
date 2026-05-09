@@ -1,0 +1,152 @@
+:root {
+  color-scheme: dark;
+  --bg: #090b1f;
+  --panel: #111530;
+  --text: #f5f7ff;
+  --muted: #a2aed3;
+  --accent: #3dd9a1;
+  --accent-strong: #25b785;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: radial-gradient(circle at top, #151b42, var(--bg) 55%);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 2rem 1.25rem 3rem;
+}
+
+.top-nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav h1 {
+  margin: 0;
+}
+
+.hero-content {
+  max-width: 1024px;
+  margin: 2.5rem auto 0;
+}
+
+.hero-content h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 0.75rem 0;
+}
+
+.tag {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.primary-btn,
+.nav-btn,
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.primary-btn,
+button {
+  background: var(--accent);
+  color: #00150d;
+}
+
+.primary-btn:hover,
+button:hover {
+  background: var(--accent-strong);
+}
+
+.nav-btn {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid #31406c;
+}
+
+.section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid #232b55;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.section-highlight {
+  background: rgba(17, 21, 48, 0.75);
+  border-top: 1px solid #232b55;
+  border-bottom: 1px solid #232b55;
+}
+
+.join-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+input[type='email'] {
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #3f4c7a;
+  background: #090f2e;
+  color: var(--text);
+  min-width: 220px;
+}
+
+.form-message {
+  min-height: 1.25rem;
+  color: var(--accent);
+  margin-top: 0.75rem;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 1.5rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

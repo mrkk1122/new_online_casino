@@ -1,0 +1,22 @@
+{
+  "name": "earnwave-website",
+  "version": "1.0.0",
+  "description": "Landing page for EarnWave online earning website",
+  "main": "script.js",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "echo \"No automated tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkk1122/new_online_casino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mrkk1122/new_online_casino/issues"
+  },
+  "homepage": "https://github.com/mrkk1122/new_online_casino#readme"
+}
