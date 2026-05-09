@@ -1,6 +1,12 @@
-# EarnWave Website
+# EarnWave Website (new_online_casino repository)
 
 Simple static landing page for an online earning website concept.
+
+## Live site (GitHub Pages)
+
+- URL: https://mrkk1122.github.io/new_online_casino/
+- The site deploys automatically from the `main` branch using GitHub Actions.
+- In repository settings, ensure **Pages → Build and deployment → Source** is set to **GitHub Actions**.
 
 ## Run locally
 
