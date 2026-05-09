@@ -10,6 +10,10 @@ if (leadForm) {
   leadForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
+    if (!formMessage) {
+      return;
+    }
+
     const emailInput = document.getElementById('email');
     if (!emailInput || !(emailInput instanceof HTMLInputElement)) {
       return;
