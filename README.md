@@ -1,4 +1,4 @@
-# EarnWave Website
+# EarnWave Website (new_online_casino repository)
 
 Simple static landing page for an online earning website concept.
 
